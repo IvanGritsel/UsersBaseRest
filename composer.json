@@ -1,0 +1,17 @@
+{
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "require": {
+    "ext-pdo": "*",
+    "ext-sockets": "*",
+    "doctrine/annotations": "^1.13",
+    "friendsofphp/php-cs-fixer": "^3.11"
+  }
+}
